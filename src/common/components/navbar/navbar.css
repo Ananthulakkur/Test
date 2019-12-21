@@ -1,0 +1,40 @@
+
+.nav-bar{
+  display: inline-block;
+  align-items: center;
+  background: #3F93D3;
+  padding:0px 10px;
+  margin-bottom: -3px;
+  border-bottom: 5px solid #dcc322;
+  color:#ffffff;
+  width: 100%;
+  justify-content:space-between !important;
+}
+
+.menu-list {
+  float: left;
+}
+
+ul.navbar-menu li{
+  display: inline-block;
+}
+
+ul.navbar-menu li a{
+  color:#ffffff;
+  padding: 15px 25px !important;
+}
+
+ul.navbar-menu a.active, ul.navbar-menu a:hover{
+  color:#3F93D3;
+  background: #ffffff;
+}
+
+a{
+  text-decoration: none;
+}
+
+.la-nav-bar-right-section{
+  float: right;
+  margin-top: 1%;
+  margin-right: 25px;
+}
