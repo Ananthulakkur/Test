@@ -1,0 +1,22 @@
+.App-Header {
+    width: 100%;
+    background-color:white;
+    display: inline-block;
+    margin-bottom: -3px;
+}
+
+.logo { 
+    float: left;
+    width: 20%;
+    height: 50%;
+    margin-left: 25px;
+}
+
+.language {
+    float: right;
+    margin-top: 1%;
+    margin-right: 25px;
+}
+
+
+

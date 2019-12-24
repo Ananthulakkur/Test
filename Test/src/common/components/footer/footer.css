@@ -1,0 +1,31 @@
+.app-footer {
+    width: 100%;
+    background-color: #ebebeb;
+    display: inline-block;
+    margin-bottom: -3px;
+}
+
+.footer-logo {
+    float: left;
+    width: 50%;
+    height: 40%;
+    padding: 20px;
+}
+
+/* .vl {
+    float: left;
+    border-left: 1px solid #636363;
+    height: 80%;
+    width: 2%;
+} */
+
+.list-style {
+    float: left;
+    list-style-type: none;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+  

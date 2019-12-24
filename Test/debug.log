@@ -1,0 +1,4 @@
+[1213/190335.556:ERROR:crashpad_client_win.cc(381)] OpenProcess: Access is denied. (0x5)
+[1213/190335.678:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating
+[1216/120451.460:ERROR:crashpad_client_win.cc(381)] OpenProcess: Access is denied. (0x5)
+[1216/120451.544:ERROR:crashpad_client_win.cc(131)] crash server failed to launch, self-terminating

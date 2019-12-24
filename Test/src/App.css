@@ -1,0 +1,16 @@
+:root {
+  --body-background-color: #fff;
+  --tablet-body-background-color: rgb(171, 207, 171);
+  --mobile-body-background-color: #cdcddc;
+  --primary-button-background-color:rgba(63, 147, 211, 1.0);
+  --primary-button-background-hover-color:rgba(63, 147, 211, 0.8);
+  --button-background-color:#fff;
+  --button-background-hover-color:rgba(63, 147, 211, 0.2);
+  --plain-button-background-hover-color:rgba(198, 198, 198, 0.2);
+}
+BODY {
+  background-color: var(--body-background-color)
+}
+.App {
+  text-align: center;
+}

@@ -1,0 +1,60 @@
+.w_button {
+    cursor: pointer;
+    outline: none;
+}
+  
+.button_component.w_button {
+    background-color: var(--primary-button-background-color);
+    color: var(--button-color);
+}
+
+.button_component.w_button:hover {
+    background-color: var(--primary-button-background-hover-color);
+}
+
+.button_primary.w_button {
+    background-color: var(--primary-button-background-color);
+    color: rgb(226,237,247);
+    width: 80%;
+    height: 55px;
+    border-radius: 4px;
+    font-family: 'Helvetica Neue';
+    font-size: 21px;
+}
+
+.button_primary.w_button:hover, .button_primary.w_button:focus {
+    background-color: var(--primary-button-background-hover-color);
+}
+
+.button_secondary.w_button {
+    background-color: var(--button-color);
+    color: #74a5db; /* 116	165	219	 */
+    width: 75%;
+    height: 55px;
+    border-radius: 4px;
+    border-width: 2px;
+    border-color: #8fb9e3;/*143	185	227	*/
+    font-family: 'Helvetica Neue';
+    font-size: 21px;
+}
+
+.button_secondary.w_button:hover, .button_secondary.w_button:focus {
+    background-color: var(--button-background-hover-color);
+} 
+
+.button_plain.w_button {
+    background-color: var(--button-color);
+    color: #515151;
+    align-content: center;
+    width: 75%;
+    height: 55px;
+    border-width: 2px;
+    border-radius: 4px;
+    border-color: #c6c6c6;
+    font-family: 'Helvetica Neue';
+    font-size: 19px;
+}
+
+.button_plain.w_button:hover, .button_plain.w_button:focus {
+    background-color: var(--plain-button-background-hover-color);
+} 
